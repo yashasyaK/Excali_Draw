@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+       
+</head>
+<body>
+    <h1>Excelidraw</h1>
+    <canvas id="canvas"></canvas>
+
+    <div class="btns">
+        <button id="clear">Clear</button>
+        <button id="undo">Undo</button>
+         <button id="redo">Redo</button>
+         <input type="range" id="volume" name="volume" min="1" max="15">
+
+        <div class="colors">
+            <div id='red' class="red color" style="background-color: red;"></div>
+            <div id="blue" class="blue color" style="background-color: blue;"></div>
+            <div id='green' class="green color" style="background-color: green;"></div>
+           <input id="color-picker" type="color">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
